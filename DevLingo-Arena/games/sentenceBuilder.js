@@ -3,19 +3,44 @@ const gameState = require('../gameState');
 
 function sentenceBuilder() {
 
-    const challenge = [
-    {
-        words: ["developer", "is", "He", "a"],
-        correct: "He is a developer"
-    },
-    {
-        words: ["friend", "my", "She", "is"],
-        correct: "She is my friend"
-    },
-    {
-        words: ["friend", "my", "She", "is"],
-        correct: "She is my friend"
-    },
+const challenge = [
+{
+    words: ["developer", "is", "He", "a"],
+    correct: "He is a developer"
+},
+{
+    words: ["friend", "my", "She", "is"],
+    correct: "She is my friend"
+},
+{
+    words: ["happy", "are", "They", "today"],
+    correct: "They are happy today"
+},
+{
+    words: ["coffee", "like", "I"],
+    correct: "I like coffee"
+},
+{
+    words: ["school", "to", "go", "We"],
+    correct: "We go to school"
+},
+{
+    words: ["dog", "my", "is", "big"],
+    correct: "My dog is big"
+},
+{
+    words: ["playing", "is", "He", "soccer"],
+    correct: "He is playing soccer"
+},
+{
+    words: ["yesterday", "worked", "I"],
+    correct: "I worked yesterday"
+},
+{
+    words: ["home", "are", "They", "at"],
+    correct: "They are at home"
+}
+];
 
     
     ];
