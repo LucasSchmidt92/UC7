@@ -3,9 +3,13 @@ const gameState = require('../gameState');
 
 function memoryChallenge(){
 
-    const words = [
-     ["code", "debug", "function", "variable"]
-    ]
+  const words = [
+    ["pikachu", "electric", "yellow", "thunder"],
+    ["charmander", "fire", "tail", "flame"],
+    ["squirtle", "water", "shell", "blue"],
+    ["bulbasaur", "grass", "plant", "green"],
+    ["pokeball", "catch", "pokemon", "trainer"]
+];
 
     words.forEach(w => {
         console.log("\nMemorize these words:");
