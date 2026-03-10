@@ -3,39 +3,22 @@ const func = require("../gameState");
 
 function battleRPG() {
   const questions = [
-const questions = [
-  {
-    question: "Complete: I ____ a pharmacist (am / is / are)",
-    answer: "am",
-  },
-  {
-    question: "Complete: She ____ my friend (am / is / are)",
+{
+    question: "Past of 'catch'",
+    answer: "caught",
+},
+{
+    question: "Pikachu ____ electric: is / are / am",
     answer: "is",
-  },
-  {
-    question: "Past of 'work'",
-    answer: "worked",
-  },
-  {
-    question: "Past of 'study'",
-    answer: "studied",
-  },
-  {
-    question: "Complete: I ____ coffee every morning (drink / drinks)",
-    answer: "drink",
-  },
-  {
-    question: "Complete: He ____ Pokémon (like / likes)",
-    answer: "likes",
-  },
-  {
-    question: "Plural of 'dog'",
-    answer: "dogs",
-  },
-  {
-    question: "Male pronoun",
-    answer: "he",
-  }
+},
+{
+    question: "Write the contraction of 'I am'",
+    answer: "i'm",
+},
+{
+    question: "Past of 'win'",
+    answer: "won",
+}
 ];
   ];
   let loop = true;
