@@ -3,41 +3,32 @@ const gameState = require('../gameState');
 
 function quiz(){
     const questions = [
-{
-    question: " She ____ not happy today.",
-    options: ["1) is", "2) are", "3) am"],
-    answer: "1"
-},
-
-{
-    question: " I ____ not like coffee.",
-    options: ["1) do", "2) does", "3) did"],
-    answer: "1"
-},
-
-{
-    question: " They ____ not at home yesterday.",
-    options: ["1) are", "2) were", "3) is"],
-    answer: "2"
-},
-
-{
-    question: " We ____ soccer last night.",
-    options: ["1) play", "2) played", "3) playing"],
-    answer: "2"
-},
-
-{
-    question: " He ____ to school yesterday.",
-    options: ["1) go", "2) goes", "3) went"],
-    answer: "3"
-},
-
-{
-    question: " She ____ watching TV now.",
-    options: ["1) is", "2) are", "3) am"],
-    answer: "1"
-}
+    {
+        question: " She ____ not happy today.",
+        options: ["1) is", "2) are", "3) am"],
+        answer: "1"
+    },
+    {
+        question: "Pikachu ____ an electric Pokémon.",
+        options: ["1) am", "2) is", "3) are"],
+        answer: "2"
+    },
+    {
+        question: "Charizard ____ very strong.",
+        options: ["1) is", "2) are", "3) am"],
+        answer: "1"
+    },
+    {
+        question: "Alan Patrick ____ the captain yesterday.",
+        options: ["1) was", "2) were", "3) is"],
+        answer: "1"
+    },
+    {
+        question: "The fans ____ very happy last game.",
+        options: ["1) was", "2) were", "3) is"],
+        answer: "2"
+    }
+];
 
     questions.forEach(q => {
 
