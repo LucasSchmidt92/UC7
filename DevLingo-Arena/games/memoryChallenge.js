@@ -27,7 +27,7 @@ function memoryChallenge(){
         console.log("Correct!")
         gameState.addPoints (10)
         } else {
-            console.log("Wrong the rigth answer is" + words.w.join(", "));
+           console.log("Wrong! The right answer is " + w.join(", "));
             gameState.loseLife()
         }
 
