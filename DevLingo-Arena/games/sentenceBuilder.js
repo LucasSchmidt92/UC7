@@ -13,32 +13,16 @@ const challenge = [
     correct: "She is my friend"
 },
 {
-    words: ["happy", "are", "They", "today"],
-    correct: "They are happy today"
+    words: ["Pikachu", "is", "an", "electric", "pokemon"],
+    correct: "Pikachu is an electric pokemon"
 },
 {
-    words: ["coffee", "like", "I"],
-    correct: "I like coffee"
+    words: ["Internacional", "is", "a", "big", "team"],
+    correct: "Internacional is a big team"
 },
 {
-    words: ["school", "to", "go", "We"],
-    correct: "We go to school"
-},
-{
-    words: ["dog", "my", "is", "big"],
-    correct: "My dog is big"
-},
-{
-    words: ["playing", "is", "He", "soccer"],
-    correct: "He is playing soccer"
-},
-{
-    words: ["yesterday", "worked", "I"],
-    correct: "I worked yesterday"
-},
-{
-    words: ["home", "are", "They", "at"],
-    correct: "They are at home"
+    words: ["Charizard", "is", "very", "strong"],
+    correct: "Charizard is very strong"
 }
 ];
 
