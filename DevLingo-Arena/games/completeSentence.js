@@ -3,35 +3,31 @@ const gameState = require('../gameState');
 
 function completeSentence(){
 const sentences = [
-    { text: "She ____ my sister.",
+    { 
+        text: "She ____ my sister.",
       answer: "is" },
 
-    { text: "I ____ a developer.",
+    { 
+        text: "I ____ a developer.",
       answer: "am" },
 
-    { text: "Internacional of Porto Alegre ____ world champion.",
+    { 
+        text: "Internacional of Porto Alegre ____ world champion.",
       answer: "is" },
+    { 
+        text: "Pikachu ____ electric.", 
+        answer: "is" 
+    },
+    { 
+        text: "I ____ a Pokémon trainer.", 
+        answer: "am" 
+    },
+    { 
+        text: "Internacional ____ a big team.", 
+        answer: "is" 
+    }
+];
 
-    { text: "They ____ my friends.",
-      answer: "are" },
-
-    { text: "We ____ students.",
-      answer: "are" },
-
-    { text: "He ____ very happy today.",
-      answer: "is" },
-
-    { text: "I ____ tired yesterday.",
-      answer: "was" },
-
-    { text: "They ____ at home yesterday.",
-      answer: "were" },
-
-    { text: "She ____ coffee every morning.",
-      answer: "drinks" },
-
-    { text: "We ____ English at school.",
-      answer: "study" }
 ];
     sentences.forEach(s => {
 
